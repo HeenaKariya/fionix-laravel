@@ -1,0 +1,81 @@
+@media only screen and (max-width: 760px) {
+    #table-view {
+        display: none;
+    }
+
+    #list-view {
+        display: block !important;
+    }
+    
+}
+.full-width-view {
+    background-color: #eef1f4 !important;
+    width: 100% !important;
+    border: 1px solid #000 !important;
+    font-weight: bold !important;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #000 !important;
+}
+.full-width-approve {
+    background-color: #545f71 !important;
+    width: 100% !important;
+    border: 1px solid #545f71 !important;
+    font-weight: bold !important;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff !important;
+}
+.full-width-cancel {
+    background-color: red !important;
+    width: 100% !important;
+    border: 1px solid #545f71 !important;
+    font-weight: bold !important;
+    display: block;
+    text-align: center;
+    margin-top: 10px;
+    color: #fff !important;
+}
+.create-btn{
+    background-color: #545f71 !important;
+    /* width: 100% !important; */
+    border: 1px solid #545f71 !important;
+    font-weight: bold !important;
+    /* display: block; */
+    text-align: center;
+    /* margin-top: 10px; */
+    color: #fff !important;
+}
+.small-width-view {
+    background-color: #eef1f4 !important;
+    width: 25% !important;
+    border: 1px solid #000 !important;
+    font-weight: bold !important;
+    /* display: block; */
+    text-align: center;
+    /* margin-top: 10px; */
+    color: #000 !important;
+}
+.navbar-nav .user-menu > .nav-link::before {
+    content: "\f007"; 
+    font-family: "Font Awesome 5 Free"; 
+    font-weight: 900;
+    margin-right: 8px; 
+    display: inline-block;
+}
+
+.label {
+    text-transform: uppercase;
+}
+
+[class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:focus, [class*=sidebar-dark-] .nav-treeview>.nav-item>.nav-link.active:hover {
+    padding-left: 30px;
+}
+
+.form-group.project-detail-table {
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
