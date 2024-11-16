@@ -1,0 +1,43 @@
+name: Deploy to Main Brandh (Production) (Auto)
+
+# on: workflow_dispatch
+on:
+    push:
+        branches:
+        # You can also change the branch name to `develop`
+        - main
+
+permissions:
+    contents: read
+
+concurrency: production_deploy
+
+jobs:
+    deployer:
+        name: Deployer to Main Brandh (Production)
+        runs-on: ubuntu-22.04
+        
+        steps:
+            - uses: actions/checkout@v2
+              name: GitHub Repo Checkout Action
+
+            - name: Setup PHP
+              uses: shivammathur/setup-php@v2
+              with:
+                php-versions: 8.2
+
+            # - name: Install Dependencies
+            #   run: composer install -q --no-ansi --no-interaction --no-scripts --no-progress --prefer-dist
+            
+            # - name: Download deployer phar executable
+            #   run: 
+
+
+            - name: Deployer PHP Run
+              uses: deployphp/action@v1
+              with:
+                deployer-version: "7.0.0"
+                private-key: ${{ secrets.PRIVATE_KEY }}
+                # known-hosts: ${{ secrets.KNOWN_HOSTS }}
+                dep: deploy production -v
+
