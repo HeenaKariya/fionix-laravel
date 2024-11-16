@@ -1,4 +1,4 @@
-name: Deploy to Main Brandh (Production) (Auto)
+name: Deploy to Main Branch (Production) (Auto)
 
 # on: workflow_dispatch
 on:
