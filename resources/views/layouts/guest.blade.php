@@ -18,8 +18,7 @@
         <div class="min-h-screen flex flex-col sm:justify-center items-center pt-6 sm:pt-0 bg-gray-100">
             <div>
                 <a href="/">
-                <img src="{{ asset('images/concord-laravel.jpg') }}" alt="{{ config('app.name') }}" class="fill-current text-gray-500" style="    width: 10rem;height: 7rem; ">
-
+                <h1 style="font-size: 55px;">FIONIX</h1>
                 </a>
             </div>
 

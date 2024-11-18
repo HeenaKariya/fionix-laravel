@@ -14,7 +14,7 @@ return [
     |
     */
 
-    'title' => 'Concord',
+    'title' => 'Fionix',
     'title_prefix' => '',
     'title_postfix' => '',
 
@@ -63,12 +63,12 @@ return [
     |
     */
 
-    'logo' => '<b>Concord</b>',
+    'logo' => '<b>Fionix</b>',
     'logo_img' => '/images/logo.jpg',
     'logo_img_class' => 'brand-image img-circle elevation-3',
     'logo_img_xl' => null,
     'logo_img_xl_class' => 'brand-image-xs',
-    'logo_img_alt' => 'Concord Logo',
+    'logo_img_alt' => 'Fionix Logo',
 
     /*
     |--------------------------------------------------------------------------
@@ -87,7 +87,7 @@ return [
         'enabled' => false,
         'img' => [
             'path' => '/images/logo.jpg',
-            'alt' => 'Concord Logo',
+            'alt' => 'Fionix Logo',
             'class' => '',
             'width' => 50,
             'height' => 50,
@@ -114,7 +114,7 @@ return [
         'mode' => 'fullscreen',
         'img' => [
             'path' => '/images/logo.jpg',
-            'alt' => 'Concord',
+            'alt' => 'Fionix',
             'effect' => 'animation__shake',
             'width' => 60,
             'height' => 60,
