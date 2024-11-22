@@ -86,7 +86,7 @@ return [
     'auth_logo' => [
         'enabled' => false,
         'img' => [
-            'path' => '/images/logo.jpg',
+            'path' => '',
             'alt' => 'Fionix Logo',
             'class' => '',
             'width' => 50,
